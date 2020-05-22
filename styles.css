@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+  background-color: black;
+  font-family: courier;
+}
+
+h1,
+p,
+div,
+li {
+  color: white;
+  border: 2px solid lightblue;
+  border-radius: 10%;
+}
+
+.header {
+  /* display: flex; */
+  border: 2px solid #bada55;
+  /* justify-content:flex-end; */
+}
+
+.profile {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 25px;
+}
+
+.site-name {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 25px;
+  font-size: xxx-large;
+  /* height: 50px; */
+}
+
+.main-menu-container {
+  /* display: flex;
+  flex-direction: column; */
+}
+
+.menu-main-menu {
+  display: flex;
+  flex-direction: row wrap;
+  justify-content: flex-start;
+}
+
+li {
+  margin: 15px;
+}
+
+.page-view {
+  padding-left: 25px;
+}
+
+.pedal-board {
+ display: flex;
+ flex-flow: row wrap;
+ justify-content: space-around;
+ border: 2px solid pink;
+}
+
+.pedal {
+  flex: 1 0 20%;
+  margin: 20px;
+  /* width: 200px; */
+  /* width: 25%; */
+  height: 350px;
+  box-sizing: border-box;
+  color: white;
+  text-align: center;
+  border: 2px solid grey;
+  border-radius: 10%;
+}
