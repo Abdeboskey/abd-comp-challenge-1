@@ -9,8 +9,8 @@ p,
 div,
 li {
   color: white;
-  border: 2px solid lightblue;
-  border-radius: 10%;
+  /* border: 2px solid lightblue;
+  border-radius: 10%; */
 }
 
 .header {
@@ -30,7 +30,6 @@ li {
   justify-content: flex-end;
   padding-right: 25px;
   font-size: xxx-large;
-  /* height: 50px; */
 }
 
 .main-menu-container {
@@ -42,12 +41,20 @@ li {
   display: flex;
   flex-direction: row wrap;
   justify-content: flex-start;
-  list-style-type: circle;
+  list-style-type: none;
 }
 
 li {
-  margin: 14px;
+  margin-left: 24px;
   cursor: pointer;
+  text-size: larger;
+  transition: all 2s ease-in-out;
+}
+
+li:hover {
+  color: #32a8a4;
+  /* transition: color 2s; */
+  transform: scale(1.1);
 }
 
 .page-view {
@@ -60,14 +67,13 @@ li {
  justify-content: space-around;
  border: 2px solid pink;
  margin-bottom: 200px;
+ margin-left: 20px;
+ margin-right: 20px;
 }
 
 .pedal {
   flex: 1 0 20%;
-  /* flex: 0 0 auto; */
   margin: 20px;
-  /* width: 200px; */
-  /* width: 25%; */
   height: 450px;
   box-sizing: border-box;
   color: white;
@@ -79,5 +85,6 @@ li {
 .pedal:hover {
   box-shadow: inset 10px 10px 35px purple;
   cursor: pointer;
-  transition: box-shadow .7s;
+  /* text-shadow:1px 1px 3px pink; */
+  transition: box-shadow 3s;
 }
