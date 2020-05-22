@@ -15,8 +15,8 @@ li {
 
 .header {
   /* display: flex; */
-  border: 2px solid #bada55;
   /* justify-content:flex-end; */
+  border: 2px solid #bada55;
 }
 
 .profile {
@@ -42,10 +42,12 @@ li {
   display: flex;
   flex-direction: row wrap;
   justify-content: flex-start;
+  list-style-type: circle;
 }
 
 li {
-  margin: 15px;
+  margin: 14px;
+  cursor: pointer;
 }
 
 .page-view {
@@ -57,17 +59,25 @@ li {
  flex-flow: row wrap;
  justify-content: space-around;
  border: 2px solid pink;
+ margin-bottom: 200px;
 }
 
 .pedal {
   flex: 1 0 20%;
+  /* flex: 0 0 auto; */
   margin: 20px;
   /* width: 200px; */
   /* width: 25%; */
-  height: 350px;
+  height: 450px;
   box-sizing: border-box;
   color: white;
   text-align: center;
   border: 2px solid grey;
   border-radius: 10%;
+}
+
+.pedal:hover {
+  box-shadow: inset 10px 10px 35px purple;
+  cursor: pointer;
+  transition: box-shadow .7s;
 }
