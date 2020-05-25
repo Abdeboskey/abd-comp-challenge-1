@@ -2,7 +2,7 @@ body,
 html {
   background-color: #1d1d24;
   height: 100%;
-  font-family: monospace;
+  font-family: courier;
 }
 
 * {
@@ -31,6 +31,15 @@ align-items: flex-end;
 .nav {
   margin-left: 15px;
   margin-bottom: 15px;
+  cursor: pointer;
+  text-size: larger;
+  transition: all 2s ease-in-out;
+}
+
+.nav:hover {
+  color: #32a8a4;
+  /* transition: color 2s; */
+  transform: scale(1.1);
 }
 
 .header-right {
