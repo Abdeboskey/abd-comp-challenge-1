@@ -6,10 +6,10 @@ html {
   color: white;
 }
 
-* {
+/* * {
   border: 0.5mm solid pink;
   border-radius: 0.5em;
-}
+} */
 
 .header {
   display: flex;
@@ -90,18 +90,14 @@ h1 {
 .pedal > img {
   height: 385px;
   position: relative;
-  opacity: 0;
-  transition: all .7s ease-in-out;
-}
-
-.pedal > img:hover {
-  opacity: 0.4;
-  transform: scale(1.1);
 }
 
 .content {
+  background-color: black;
+  border-radius: .7em;
   position: absolute;
   width: 250px;
+  height: 385px;
   align-items: flex-start;
   display: flex;
   flex-direction: column;
@@ -111,10 +107,17 @@ h1 {
 }
 
 .pedal > .content:hover {
-  opacity: 1;
+  opacity: 0.85;
+  box-shadow: 0 0 30px black;
   transform: scale(1.1);
 }
 
 .content > h2 {
+  margin-left: 15px;
+  margin-bottom: 0;
+}
 
+.content > p {
+  margin-top: 5px;
+  margin-left: 15px;
 }
