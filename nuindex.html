@@ -3,24 +3,25 @@
   <head>
     <title>Static Comp 1</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="./styles.css"/>
+    <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.18.1/build/cssnormalize/cssnormalize-min.css">
+    <link rel="stylesheet" type="text/css" href="nustyles.css"/>
   </head>
   <body>
     <section class="header">
-      <div class="profile">
-        <img><p>🌀 Username</p>
+      <div class="header-left">
+        <div class="nav">Build</div>
+        <div class="nav">Saved Builds</div>
+        <div class="nav">Device Collection</div>
       </div>
-      <h1 class="site-name">Pedalboard  🎛</h1>
-      <nav class="main-menu-container">
-        <ul class="menu-main-menu">
-          <li>Build</li>
-          <li>Saved Boards</li>
-          <li>Pedal Collection</li>
-        </ul>
-      </nav>
+      <div class="header-right">
+        <div id="profile">UserName</div>
+        <div id="logo">LOGO</div>
+      </div>
     </section>
-    <h1 class="page-view">Build</h1>
-    <section class="pedal-board">
+    <section class="page-view">
+      <h1>Build</h1>
+    </section>
+    <main class="cards">
       <article class="pedal">
         <h2>Syntax Error</h2>
         <p>by</p>
@@ -30,13 +31,11 @@
         <h2>Bitquest</h2>
         <p>by</p>
         <h3>Dr. Scientist</h3>
-        <img class="ped-pic" src="./assets/bitquest_front.png"/>
       </article>
       <article class="pedal">
         <h2>Count to 5</h2>
         <p>by</p>
         <h3>Montreal Assembly</h3>
-        <img class="ped-pic" src="./assets/ct5_front.png"/>
       </article>
       <article class="pedal">
         <h2>Wolf Computer</h2>
@@ -63,6 +62,6 @@
         <p>by</p>
         <h3>MXR</h3>
       </article>
-    </section>
+    </main>
   </body>
-</html>
+  </html>

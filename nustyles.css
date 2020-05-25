@@ -1,0 +1,61 @@
+body,
+html {
+  background-color: #1d1d24;
+  height: 100%;
+  font-family: monospace;
+}
+
+* {
+  border: 0.5mm solid pink;
+  border-radius: 0.5em;
+  color: white;
+}
+
+.header {
+  display: flex;
+  height: 20%;
+  background-color: black;
+}
+
+.header-left,
+.header-right {
+  flex: 1 1 50%;
+  display: flex
+}
+
+.header-left {
+justify-content:flex-start;
+align-items: flex-end;
+}
+
+.nav {
+  margin-left: 15px;
+  margin-bottom: 15px;
+}
+
+.header-right {
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+#profile {
+  margin-top: 15px;
+  margin-right: 15px;
+  display: flex;
+}
+
+#logo {
+  margin-bottom: 15px;
+  margin-right: 15px;
+}
+
+.page-view {
+  height: 15%;
+  display: flex;
+  align-items: center;
+}
+
+.cards {
+
+}
