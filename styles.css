@@ -119,7 +119,6 @@ h1 {
 }
 
 .content > h2 {
-
   color: #32a8a4;
   margin-bottom: 0;
 }
@@ -130,10 +129,82 @@ h1 {
   font-size: 0.85em;
 }
 
-.content > p {
-  /* margin-left: 15px; */
+.description {
+  font-size: 0.75em;
+  margin-top: auto;
 }
 
-.content > .description {
-  font-size: 0.75em;
+.content > h3 {
+  margin-top: auto;
+  font-size: 1.1em;
+}
+
+a {
+  margin-top: auto;
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 62em) {
+
+  .header-left {
+    flex: 1 1 50%;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: flex-start;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  .header-right {
+    flex: 1 1 50%;
+  }
+
+  nav {
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+
+  .cards {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto auto auto auto;
+  }
+}
+
+@media screen and (max-width: 36em) {
+
+  .header {
+    height: auto;
+    background-color: black;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .header-left {
+    /* flex: 1 1 50%; */
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: flex-start;
+    margin-top: auto;
+    margin-bottom: 30px;
+  }
+
+  .header-right {
+    /* flex: 1 1 auto; */
+    margin-bottom: auto;
+  }
+
+  nav {
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+
+  .cards {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: auto;
+  }
+
+  pedal {
+    width: 90%;
+    height: auto;
+  }
 }
