@@ -29,6 +29,5 @@ Each pedal shows up as an image, and an information card about that pedal is dis
 ### As we re-size the window, the website responds:
 ![Responsive layout 1](screenshots/scrunched_view.png)
 ![Responsive layout 2](screenshots/more_scrunched_view.png)
-![Mobile view with header](screenshots/mobile_view_header.png)
-![Mobile view with information card](screenshots/mobile_view_info.png)
+![Mobile view with header](screenshots/mobile_view_header.png) ![Mobile view with information card](screenshots/mobile_view_info.png)
 #### This page can be seen in Github Pages deployment [Here](https://abdeboskey.github.io/abd-comp-challenge-1/)

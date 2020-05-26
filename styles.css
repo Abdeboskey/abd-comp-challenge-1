@@ -57,6 +57,7 @@ nav > img {
 #profile > img {
   height: 1.1em;
   width: auto;
+  margin-right: 5px;
   align-self: center;
 }
 
@@ -238,7 +239,7 @@ a {
   }
 }
 
-@media screen and (max-width: 38em) {
+@media screen and (max-width: 39em) {
 
   .header {
     height: auto;
