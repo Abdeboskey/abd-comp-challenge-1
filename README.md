@@ -21,7 +21,7 @@ Each pedal shows up as an image, and an information card about that pedal is dis
 * A link to the manufacturers website for more information.
 
 ### Below is the original comp that this was based on:
-![Original Comp](screenshots/static-comp-challenge-og.png)
+![Original Comp](screenshots/static-comp-challenge-og.jpg)
 ### Here is Pedalboard main view for comparison:
 ![Main Page View Fullscreen](screenshots/main_view.png)
 ### And with an information card showing:
