@@ -19,13 +19,13 @@ html {
 
 .header-left,
 .header-right {
-  flex: 1 1 50%;
   display: flex
 }
 
 .header-left {
-justify-content:flex-start;
-align-items: flex-end;
+  flex: 1 1 70%;
+  justify-content:flex-start;
+  align-items: flex-end;
 }
 
 nav {
@@ -42,6 +42,7 @@ nav:hover {
 }
 
 .header-right {
+  flex: 1 1 30%;
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-end;
@@ -112,12 +113,27 @@ h1 {
   transform: scale(1.1);
 }
 
-.content > h2 {
+.content > * {
   margin-left: 15px;
+  margin-right: 15px;
+}
+
+.content > h2 {
+
+  color: #32a8a4;
   margin-bottom: 0;
 }
 
-.content > p {
+.company {
+  font-style: italic;
   margin-top: 5px;
-  margin-left: 15px;
+  font-size: 0.85em;
+}
+
+.content > p {
+  /* margin-left: 15px; */
+}
+
+.content > .description {
+  font-size: 0.75em;
 }
